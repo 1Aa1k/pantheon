@@ -1,0 +1,6 @@
+# corpus never goes in this repo
+*/transcripts/
+notes/
+sessions/
+bundles/
+__pycache__/

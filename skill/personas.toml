@@ -1,0 +1,67 @@
+# One block per person. Adding someone = build their corpus + profile with
+# pipeline/ (see README) and add a block here. Relative paths resolve against
+# $PANTHEON_CORPUS (default ~/pantheon-corpus); absolute paths are used as-is.
+# `span` describes the corpus the original author built - update it for yours.
+
+[musk]
+name = "Elon Musk"
+profile = "notes/musk_profile.md"
+ops = "musk/ops.md"
+transcripts = "musk/transcripts"
+span = "2003-2026, ~77 distinct appearances"
+
+[luckey]
+name = "Palmer Luckey"
+profile = "notes/luckey_profile.md"
+ops = "luckey/ops.md"
+transcripts = "luckey/transcripts"
+span = "2012-2026, ~48 files incl. 2,590 Reddit comments and blog posts"
+
+[graham]
+name = "Paul Graham"
+profile = "notes/graham_profile.md"
+ops = "graham/STATUS.md"
+transcripts = "graham/transcripts"
+span = "1993-2026, 56 essays + 3 interviews (mostly edited essay voice)"
+
+[thiel]
+name = "Peter Thiel"
+profile = "notes/thiel_profile.md"
+ops = "thiel/STATUS.md"
+transcripts = "thiel/transcripts"
+span = "2008-2025, 42 sources (19 are CS183 student notes, not verbatim)"
+
+[bezos]
+name = "Jeff Bezos"
+profile = "notes/bezos_profile.md"
+ops = "bezos/STATUS.md"
+transcripts = "bezos/transcripts"
+span = "1995-2023, shareholder letters 1997-2020 (gaps) + interviews"
+
+[munger]
+name = "Charlie Munger"
+profile = "notes/munger_profile.md"
+ops = "munger/STATUS.md"
+transcripts = "munger/transcripts"
+span = "1986-2023, 26 sources (10 attendee notes, not verbatim); died 2023-11-28"
+
+[lutke]
+name = "Tobi Lütke"
+profile = "notes/lutke_profile.md"
+ops = "lutke/STATUS.md"
+transcripts = "lutke/transcripts"
+span = "2008-2026, 23 sources (HN comments, blog, memos, podcasts)"
+
+[fried]
+name = "Jason Fried"
+profile = "notes/fried_profile.md"
+ops = "fried/STATUS.md"
+transcripts = "fried/transcripts"
+span = "2006-2026, 391 sources (Signal v. Noise / HEY World posts, REWORK podcast his turns, interviews, Getting Real co-written)"
+
+[hormozi]
+name = "Alex Hormozi"
+profile = "notes/hormozi_profile.md"
+ops = "hormozi/STATUS.md"
+transcripts = "hormozi/transcripts"
+span = "2021-2026, 67 files / 59 events (podcast auto transcripts, no speaker labels; revenue figures are his claims)"
